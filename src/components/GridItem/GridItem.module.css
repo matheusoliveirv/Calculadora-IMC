@@ -1,0 +1,56 @@
+.main{
+    width: 100%;
+    color: #5f5f5f;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #fff;
+}
+.gridIcon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow:
+    /*SOMBRA REFERENTE AO LOGO*/
+    0px 0px 2px #5f5f5f,
+    /*OFFSET*/
+    0px 0px 0px 5px #ecf0f3,
+    /*INFERIOR DIREITO*/
+    8px 8px 15px #a7aaaf,
+    /*SUPERIOR ESQUERDO*/
+    -8px -8px 15px #fff;
+}
+.gridIcon img{
+    width: 30px;
+}
+.gridTitle{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.gridInfo{
+    font-size: 12px;
+    margin-top: 14px;
+}
+
+@media(max-width: 500px){
+    .gridIcon{
+        width: 65px;
+        height: 65px;
+    }
+    .gridIcon img{
+        width: 25px;
+    }
+    .main{
+        text-align: center;
+    }
+}
