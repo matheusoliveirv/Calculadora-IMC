@@ -11,4 +11,5 @@ O intuito desse repositório foi a criação de uma calculadora IMC utilizando R
 <div style="display: inline_block"><br>
   <img align="center" alt="React" height="41" width="41" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
   <img align="center" alt="Vite" height="41" width="41" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />
+  <img align="center" alt="Vite" height="39" width="39" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
 </div>
